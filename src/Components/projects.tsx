@@ -26,7 +26,7 @@ export const Projects = () => {
                       key={index}
                       alt={tech}
                       className="w-5 h-5"
-                      src={`/public/${tech}.svg`}
+                      src={`/${tech}.svg`}
                     />
                     <div className="tooltip">{tech}</div>
                   </div>
