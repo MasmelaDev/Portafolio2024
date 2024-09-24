@@ -16,7 +16,7 @@ export const AboutMe = () => {
           <div className="relative w-[calc(100%-.9rem)] rounded-full h-[calc(100%-.9rem)] object-cover bg-emerald-500">
             <img
               className="w-full h-full object-cover rounded-full"
-              src="/src/assets/me.png"
+              src="/public/me.png"
               alt="Miguel Angel Lopez Masmela"
             />
           </div>

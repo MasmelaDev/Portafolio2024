@@ -1,27 +1,27 @@
 export const skills = [
   {
-    img: "/src/assets/React.svg",
+    img: "/public/React.svg",
     alt: "React",
   },
   {
-    img: "/src/assets/next.svg",
+    img: "/public/next.svg",
     alt: "NextJS",
   },
   {
-    img: "/src/assets/TypeScript.svg",
+    img: "/public/TypeScript.svg",
     alt: "TypeScript",
   },
 
   {
-    img: "/src/assets/JavaScript.svg",
+    img: "/public/JavaScript.svg",
     alt: "JavaScript",
   },
   {
-    img: "/src/assets/python.svg",
+    img: "/public/python.svg",
     alt: "Python",
   },
   {
-    img: "/src/assets/sql.svg",
+    img: "/public/sql.svg",
     alt: "SQL",
   },
 ];
