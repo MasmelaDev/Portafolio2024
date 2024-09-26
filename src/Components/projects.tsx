@@ -6,7 +6,7 @@ export const Projects = () => {
       <h2 className="text-2xl sm:text-3xl text-emerald-500 font-bold flex items-center gap-2 mb-5 dark:drop-shadow-neon dark:text-emerald-100">
         <IconBriefcase2 /> Proyectos
       </h2>
-      <section className="flex flex-wrap gap-3 sm:gap-6 justify-center">
+      <section className="flex flex-wrap gap-2 sm:gap-6 justify-center">
         {projects.map((project) => (
           <a
             key={project.url}

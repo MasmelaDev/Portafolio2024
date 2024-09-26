@@ -10,7 +10,7 @@ import {
   IconBrandUpwork,
 } from "@tabler/icons-react";
 import { Email } from "./Components/email";
-import { GoUpButton } from "./Components/go-up-button";
+// import { GoUpButton } from "./Components/go-up-button";
 function App() {
   return (
     <>
@@ -111,7 +111,6 @@ function App() {
         </ul>
       </section>
       <Email />
-      <GoUpButton />
     </>
   );
 }

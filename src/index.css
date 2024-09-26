@@ -10,9 +10,9 @@ html{
 
 
 body{
-  max-width: 768px;
   margin: 0 auto;
-  @apply px-3 text-slate-700 bg-[#f9fafb] dark:bg-gray-950 dark:text-white
+  max-width: 768px;
+  @apply px-2 text-slate-700 bg-[#f9fafb] dark:bg-gray-950 dark:text-white
 }
 
 .tooltip-group:hover .tooltip {

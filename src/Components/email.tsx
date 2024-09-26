@@ -14,11 +14,11 @@ export const Email = () => {
       <h2 className="text-2xl sm:text-3xl text-emerald-500 font-bold flex items-center gap-2 mb-5 dark:drop-shadow-neon dark:text-emerald-100">
         <IconMail /> Email
       </h2>
-      <div className="flex gap-2 justify-center">
+      <div className="flex gap-2">
         <input
           type="text"
           disabled
-          className="bg-white/5 text-sm sm:text-base w-2/3 py-1 sm:py-1.5 px-3 rounded-lg grid place-items-center text-slate-600 dark:text-slate-300 "
+          className="bg-white/5 text-sm sm:text-base w-[calc(100%-120px)] py-1 sm:py-1.5 px-3 rounded-lg grid place-items-center text-slate-600 dark:text-slate-300 "
           value="miguelmasmeladev@gmail.com"
         />
         <div className="flex gap-2">
