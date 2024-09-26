@@ -14,7 +14,7 @@ export default {
         'neon': '0 0 10px rgb(16 185 129)',
       },
       screens: {
-        'xs': '430px',
+        'xs': '350px',
       },
     },
   },

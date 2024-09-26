@@ -6,7 +6,7 @@ export const Projects = () => {
       <h2 className="text-2xl sm:text-3xl text-emerald-500 font-bold flex items-center gap-2 mb-5 dark:drop-shadow-neon dark:text-emerald-100">
         <IconBriefcase2 /> Proyectos
       </h2>
-      <section className="flex flex-wrap gap-2 sm:gap-6 justify-center">
+      <section className="grid grid-cols-1 xs:grid-cols-2 gap-2 sm:gap-6 justify-center place-items-center ">
         {projects.map((project) => (
           <a
             key={project.url}
@@ -14,9 +14,9 @@ export const Projects = () => {
             href={project.url}
             target="_blank"
             rel="noreferrer"
-            className="flex group items-center gap-3 font-bold w-[170px] xs:w-[200px] sm:w-[300px] md:w-[350px] rounded-xl border-2  cursor-pointer hover:scale-105 transition-all  dark:border-gray-500 "
+            className="flex group items-center gap-3 font-bold w-[300px] xs:w-full h-[135px] rounded-xl border-2  cursor-pointer hover:scale-105 transition-all  dark:border-gray-500 "
           >
-            <article className="relative flex flex-col text-wrap justify-between w-full py-6 px-5">
+            <article className="relative flex flex-col text-wrap justify-between w-full py-6 px-4">
               <h2 className="text-sm sm:text-base font-bold">
                 {project.title}
               </h2>
