@@ -31,11 +31,11 @@ export const GoUpButton = () => {
           onClick={() => {
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
-          className="fixed shadow-black/40 tooltip-group top-0 right-0 lg:bottom-0 lg:top-auto m-5 p-3 bg-emerald-500 text-white rounded-full shadow-md   z-50"
+          className="fixed shadow-black/40 tooltip-group top-0 right-0 lg:bottom-0 lg:top-auto m-5 p-2 bg-emerald-500 text-white rounded-full shadow-md   z-50"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6"
+            className="h-4 w-4 sm:h-6 sm:w-6"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

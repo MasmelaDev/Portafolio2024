@@ -11,9 +11,9 @@ export const AboutMe = () => {
           initial={{ y: -200, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.3 }}
-          className="overflow-hidden bg-slate-700 rounded-full flex justify-center items-center w-48 h-48"
+          className="overflow-hidden rounded-full flex justify-center items-center w-48 h-48 shadow-lg shadow-black/30"
         >
-          <div className="relative w-[calc(100%-.9rem)] rounded-full h-[calc(100%-.9rem)] object-cover bg-emerald-500">
+          <div className="relative w-[calc(100%-.9rem)] rounded-full h-[calc(100%-.9rem)] object-cover bg-emerald-500 dark:bg-white/5  dark:shadow-neon">
             <img
               className="w-full h-full object-cover rounded-full"
               src="/me.png"
@@ -27,11 +27,13 @@ export const AboutMe = () => {
           transition={{ duration: 0.3 }}
           className="flex flex-col items-center md:items-start "
         >
-          <h1 className="text-5xl font-extrabold text-center md:text-left mb-8 md:mb-5">
-            <span className="text-emerald-500 block">Miguel Angel </span>
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-center md:text-left mb-8 md:mb-5">
+            <span className="text-emerald-500 block dark:drop-shadow-neon dark:text-emerald-200">
+              Miguel Angel{" "}
+            </span>
             <span className="">Lopez Masmela</span>
           </h1>
-          <p className="text-1xl font-medium max-w-[450px] w-full mb-8 md:mb-5 text-center md:text-left">
+          <p className="text-sm sm:text-base font-medium max-w-[450px] w-full mb-8 md:mb-5 text-center md:text-left">
             Apasionado desarrollador web con experiencia en React, Next.js y
             Python
           </p>
