@@ -14,7 +14,7 @@ export const Projects = () => {
             href={project.url}
             target="_blank"
             rel="noreferrer"
-            className="flex group items-center gap-3 font-bold w-[200px] sm:w-[300px] md:w-[350px] rounded-xl border-2  cursor-pointer hover:scale-105 transition-all  dark:border-gray-500 "
+            className="flex group items-center gap-3 font-bold w-[170px] xs:w-[200px] sm:w-[300px] md:w-[350px] rounded-xl border-2  cursor-pointer hover:scale-105 transition-all  dark:border-gray-500 "
           >
             <article className="relative flex flex-col text-wrap justify-between w-full py-6 px-5">
               <h2 className="text-sm sm:text-base font-bold">

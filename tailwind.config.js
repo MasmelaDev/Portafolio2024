@@ -13,6 +13,9 @@ export default {
       boxShadow: {
         'neon': '0 0 10px rgb(16 185 129)',
       },
+      screens: {
+        'xs': '430px',
+      },
     },
   },
   plugins: [],
